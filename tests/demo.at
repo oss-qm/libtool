@@ -436,6 +436,8 @@ AT_CLEANUP
 
 AT_SETUP([deplibs_check_method])
 
+AT_CHECK([(exit 77)])
+
 _LT_DEMO_SETUP
 
 AT_DATA([demo.mk],
